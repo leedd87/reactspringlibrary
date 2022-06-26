@@ -8,7 +8,7 @@ function Scrolling() {
 	const words = ["We", "came.", "We", "saw.", "We", "kicked", "its", "ass."];
 
 	const { scroll } = useSpring({
-		scroll: (words.length - 1) * 50,
+		scroll: (words.length - 1) * 60,
 		from: { scroll: 0 },
 		reset: true,
 		reverse: flip,
